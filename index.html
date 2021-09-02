@@ -9,11 +9,40 @@
 <body>
     <h1>Selecionando um Estado Brasileiro para ver suas cidades</h1>
     <h3>Selecione um Estado: </h3>
-
+    
     <form>
+        <label>UF:</label>
+        <select>
+            <!--estados do nordeste-->
+            <option id="uf">selecione</option>
+            <option value="0">Estados do Nordeste</option>
+            <option value="0">AL</option>
+            <option value="1">BA</option>
+            <option value="2">CE</option>
+            <option value="3">MA</option>
+            <option value="4">PA</option>
+            <option value="5">PI</option>
+            <!--
+            <option value="6">PB</option>
+            <option value="7">RN</option>
+            <option value="8">SG</option>
+            -->
+            <!--estados do nordeste-->
+            <option value="0">Estados do Norte</option>
+            <option value="0">AC</option>
+            <option value="1">AM</option>
+            <option value="2">CE</option>
+            <option value="3">MA</option>
+            <option value="4">PA</option>
+            <option value="5">PI</option>
+
+          
+        </select>
+        
+       
         <input type="text"id="imput1"></input>
         <input type="text" id="imput2"></input>
-        <button id="salvando"> Salvar</button>
+        <button type="button" id="salvando"> Salvar</button>
 
 
     </form>
@@ -21,6 +50,6 @@
     <img src="img/mp.atualizada.png" alt="">
     
   
-   
+   <script src="js/script.js"></script>
 </body>
 </html>
