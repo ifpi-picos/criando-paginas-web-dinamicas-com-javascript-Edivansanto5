@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+
     <title>Selecione seu estado para ver as cidades</title>
 </head>
 <body>
@@ -12,9 +14,9 @@
     
     <form>
         <label>UF:</label>
-        <select>
+        <select name="uf" id="uf">
             <!--estados do nordeste-->
-            <option id="uf">selecione</option>
+            <option value="sele">selecione</option>
             
             <option value="0">AL</option>
             <option value="1">BA</option>
@@ -36,7 +38,7 @@
             <option value="14">RM</option>
 
               <!--estados do SUL-->
-          
+           
             <option value="16">PR</option>
             <option value="17">SC</option>
             <option value="18">RS</option>
@@ -56,27 +58,23 @@
         </select>
         <form>
             <label>Cidades</label>
-            <select>
-               <option value="5">teresina</option>
-               <option value="1">teresina</option>
-               <option value="1">Floriano</option>
-               <option value="1">Picos</option>
-               <option value="1">Valênça</option>
-              <option value="1">Passagem Franca do piaui</option>
+            <select name="cidades" id="cidades">
+                <option value="Sele">Selecione</option>
+            
             </select>
 
-            <button type="button" id="salvando"> Salvar</button>
-        </form>
-        
-        
-
-
+            <button id="salvando"> Salvar</button>
+        </form> 
     </form>
- 
-
-    <img src="img/mp.atualizada.png" alt="">
+    <figure>
+        <img src="img/mp.atualizada.png" alt="">
+    </figure>
+       
     
-  
-   <script src="js/script.js"></script>
+
+   
+    
+    
+   <script src="./js/script.js"></script>
 </body>
 </html>

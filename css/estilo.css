@@ -1,3 +1,10 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+figure{
+    position: relative;
+}
+
 img{
-    text-align: center;
+    width: 350px;
 }
